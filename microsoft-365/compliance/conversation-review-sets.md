@@ -46,7 +46,9 @@ Here are few definitions to help you get start using Conversation Reconstruction
 
    ![Microsoft Teams Channel Conversation](../media/threadedchat.png)
 
-   In other apps (such as 1xN chat messages in Teams), there is not a formal reply chain and instead messages appear as a "flat river of messages" within a single thread. In these types apps, conversations are inferred from a group of messages that occur within a certain time. This "soft-grouping" of messages (as opposed to a reply chain) represent the "back and forth" conversation about a specific topic of interest. 
+   In other apps (such as 1x1 chat messages in Teams), there is not a formal reply chain and instead messages appear as a "flat river of messages" within a single thread. In these types apps, conversations are inferred from a group of messages that occur within a certain time. This "soft-grouping" of messages (as opposed to a reply chain) represent the "back and forth" conversation about a specific topic of interest. 
+   
+   **Note: 1xN message threading is not supported. 
 
 ## Step 1: Run a search
 
@@ -69,6 +71,7 @@ After you have reviewed and finalized your search query, you can add the search 
 When you add data from conversations to a review set, you can use the conversation retrieval options to expand your search and include contextual messages. After you set the conversation retrieval options, the following things can happen:
 
   ![Conversation Retrieval](../media/messagesandconversations.png)
+  Illustration is confusing. Please replae with a top level Message 1 and then Message 2, 3 and 4 as replies. I dont understand why Message 3 looks like it is a reply to Message 2. Please remove the second graphic. There is no longer any reference to CrC2 or CRC3 so this explanation is extremely confusing. 
   
 1. Using a keyword and date range query, the search returned a hit on *Message 3*. This message was part of a larger conversation, illustrated by *CRC1*. 
   
